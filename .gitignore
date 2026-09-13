@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Airflow
+airflow/logs/
+airflow/standalone_admin_password.txt
+airflow/simple_auth_manager_passwords.json.generated
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Spark / Delta generated files
+*.log
+*.tmp
+
+# Generated project data
+data/bronze/
+data/silver/
+data/silver_delta/
+data/gold/
+data/audit/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

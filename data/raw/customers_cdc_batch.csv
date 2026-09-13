@@ -1,0 +1,5 @@
+customer_id,first_name,last_name,email,city,state,country,signup_date,status,updated_at,operation
+1003,Priya,Patil,priya@example.com,Mumbai,Maharashtra,India,2024-03-10,Inactive,2026-09-13 09:00:00,U
+1005,Neha,Deshmukh,neha@example.com,Mumbai,Maharashtra,India,2024-05-18,Active,2026-09-13 09:15:00,U
+1014,Sagar,More,sagar@example.com,Pune,Maharashtra,India,2026-09-12,Active,2026-09-13 09:30:00,D
+1017,Manish,Shah,manish@example.com,Nashik,Maharashtra,India,2026-09-13,Active,2026-09-13 09:45:00,I

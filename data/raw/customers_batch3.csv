@@ -1,0 +1,7 @@
+customer_id,first_name,last_name,email,city,state,country,signup_date,status,updated_at
+1002,Rahul,Sharma,rahul@example.com,Mumbai,Maharashtra,India,2024-02-20,Inactive,2026-09-12 09:30:00
+1003,Priya,Patil,priya@example.com,Pune,Maharashtra,India,2024-03-10,Active,2026-09-12 10:00:00
+1014,Sagar,More,sagar@example.com,Pune,Maharashtra,India,2026-09-12,Active,2026-09-12 10:15:00
+1015,Akash,Desai,akash@example.com,Mumbai,Maharashtra,India,2026-09-12,Active,2026-09-12 10:20:00
+1015,Akash,Desai,akash@example.com,Pune,Maharashtra,India,2026-09-12,Active,2026-09-12 10:30:00
+1016,Rohit,Kale,,Nagpur,Maharashtra,India,2026-09-12,Active,2026-09-12 10:40:00
