@@ -14,95 +14,94 @@ The project demonstrates data ingestion, transformation, Delta Lake processing, 
 
 
 
-```text
-
-&#x20;                   Raw Customer Data
-
-&#x20;                          |
-
-&#x20;                          v
-
-&#x20;                   +-------------+
-
-&#x20;                   |   Bronze    |
-
-&#x20;                   |   PySpark   |
-
-&#x20;                   +-------------+
-
-&#x20;                          |
-
-&#x20;                          v
-
-&#x20;                   +-------------+
-
-&#x20;                   |   Silver    |
-
-&#x20;                   | Cleaning \&   |
-
-&#x20;                   | Deduplication|
-
-&#x20;                   +-------------+
-
-&#x20;                          |
-
-&#x20;                          v
-
-&#x20;                   +-------------+
-
-&#x20;                   | Delta Silver|
-
-&#x20;                   |  Delta Lake |
-
-&#x20;                   +-------------+
-
-&#x20;                          |
-
-&#x20;                          v
-
-&#x20;                   +-------------+
-
-&#x20;                   |    Gold     |
-
-&#x20;                   | Business    |
-
-&#x20;                   | Transform.  |
-
-&#x20;                   +-------------+
-
-&#x20;                          |
-
-&#x20;                          v
-
-&#x20;                 +-------------------+
-
-&#x20;                 |   Data Quality    |
-
-&#x20;                 | Null/Duplicate/   |
-
-&#x20;                 | Status Validation |
-
-&#x20;                 +-------------------+
-
-&#x20;                          |
-
-&#x20;                          v
-
-&#x20;                 +-------------------+
-
-&#x20;                 | Audit \&           |
-
-&#x20;                 | Reconciliation    |
-
-&#x20;                 +-------------------+
 
 
+                   Raw Customer Data
 
-&#x20;                 Orchestrated by
+                          |
 
-&#x20;                 Apache Airflow
+                          v
 
-```
+                   +-------------+
+
+                   |   Bronze    |
+
+                   |   PySpark   |
+
+                   +-------------+
+
+                          |
+
+                          v
+
+                   +-------------+
+
+                   |   Silver    |
+
+                   | Cleaning \&   |
+
+                   | Deduplication|
+
+                   +-------------+
+
+                          |
+
+                          v
+
+                   +-------------+
+
+                   | Delta Silver|
+
+                   |  Delta Lake |
+
+                   +-------------+
+
+                          |
+
+                          v
+
+                   +-------------+
+
+                   |    Gold     |
+
+                   | Business    |
+
+                   | Transform.  |
+
+                   +-------------+
+
+                          |
+
+                          v
+
+                 +-------------------+
+
+                 |   Data Quality    |
+
+                 | Null/Duplicate/   |
+
+                 | Status Validation |
+
+                 +-------------------+
+
+                          |
+
+                          v
+
+                 +-------------------+
+
+                 | Audit \&           |
+
+                 | Reconciliation    |
+
+                 +-------------------+
+
+
+
+                 Orchestrated by
+
+                 Apache Airflow
+
 
 
 
@@ -142,27 +141,27 @@ The Airflow DAG contains six sequential tasks:
 
 Bronze Ingestion
 
-&#x20;      ↓
+      ↓
 
 Silver Transformation
 
-&#x20;      ↓
+     ↓
 
 Create Delta Silver
 
-&#x20;      ↓
+     ↓
 
 Create Customer Gold
 
-&#x20;      ↓
+     ↓
 
 Data Quality
 
-&#x20;      ↓
+      ↓
 
 Audit \& Reconciliation
 
-```
+
 
 
 
@@ -466,23 +465,23 @@ Tasks:
 
 bronze\_ingestion
 
-&#x20;       ↓
+       ↓
 
 silver\_transformation
 
-&#x20;       ↓
+       ↓
 
 create\_delta\_silver
 
-&#x20;       ↓
+       ↓
 
 create\_customer\_gold
 
-&#x20;       ↓
+       ↓
 
 data\_quality
 
-&#x20;       ↓
+       ↓
 
 audit\_reconciliation
 
